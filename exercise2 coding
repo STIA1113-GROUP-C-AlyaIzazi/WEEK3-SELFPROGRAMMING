@@ -4,11 +4,11 @@ public class exercise2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        double bookPrice = 31.89;
-        double discount = 0.3*bookPrice;
-        double newPrice = bookPrice-discount;
+        double ticketPrice = 31.89;
+        double discount = 0.3*ticketPrice;
+        double newPrice = ticketPrice-discount;
         
-        System.out.printf ("The price of the book is RM%.2f" ,newPrice);
+        System.out.printf ("The price of the ticket is RM%.2f" ,newPrice);
 	}
 
 }
